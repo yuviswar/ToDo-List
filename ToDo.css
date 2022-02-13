@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0096FF;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+.container{
+    background: #3F00FF;
+    max-width: 400px;
+    margin: 120px auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0,1);
+}
+.container .addtasks{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    height: 30px;
+}
+.container .addtasks .input{
+    margin: 12px 0;
+    border-radius: 10px;
+    border-radius: 1px solid #0818A8;
+    width: 70%;
+}
+.addtasks button{
+    width: 50px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #3F00FF;
+}
+.addtasks button:hover{
+    background: #1F51FF;
+}
+.addtasks button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.Tasklist{
+    max-height: 200px;
+
+}
+.footer{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: Yellow;
+}
+.footer button
+{
+    height: 30px;
+    width: 50px;
+    padding: 5px 0;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 200;
+    font-size: 10px;
+    margin: 5px;
+    opacity: 0.9;
+}
+.footer button.active{
+  opacity: 1;
+  pointer-events: auto;
+}
